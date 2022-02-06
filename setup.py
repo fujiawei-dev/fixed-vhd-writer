@@ -9,9 +9,10 @@ requires = [
     'click',
 ]
 
+root = os.path.abspath(os.path.dirname(__file__))
+
 # Import the README and use it as the long-description.
-cwd = os.path.abspath(os.path.dirname(__file__))
-with open(os.path.join(cwd, 'README.md'), encoding='utf-8') as f:
+with open(os.path.join(root, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
@@ -29,7 +30,7 @@ setup(
 
         entry_points={
             'console_scripts': [
-                'vhdwriter=fixed_vhd_writer:fixed_vhd_writer',
+                'vhdwriter=fixed_vhd_writer.cmd:fixed_vhd_writer',
             ],
         },
 
