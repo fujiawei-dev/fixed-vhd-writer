@@ -2,6 +2,8 @@ import os
 
 from setuptools import setup
 
+from fixed_vhd_writer.version import __version__
+
 # What packages are required for this module to be executed?
 requires = [
     'click',
@@ -14,7 +16,7 @@ with open(os.path.join(cwd, 'README.md'), encoding='utf-8') as f:
 
 setup(
         name='fixed-vhd-writer',
-        version='0.0.1',
+        version=__version__,
         url='https://github.com/fujiawei-dev/fixed-vhd-writer',
         packages=['fixed_vhd_writer'],
         description='Fixed VHD writer.',

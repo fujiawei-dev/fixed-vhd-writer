@@ -24,4 +24,6 @@ def test_fixed_vhd_writer():
 
         vhd = FixedVHDWriter(vhd_file)
 
+        print('\n' + vhd.geometry)
+
         vhd.write_from_binary_file(os.path.join(cwd, 'data/mbr.bin'))
