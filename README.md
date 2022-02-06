@@ -1,5 +1,7 @@
 # Fixed VHD Writer
 
+[![PyPI](https://img.shields.io/pypi/v/fixed-vhd-writer)](https://pypi.org/project/fixed-vhd-writer/)
+
 [![Python Test](https://github.com/fujiawei-dev/fixed-vhd-writer/actions/workflows/python-test.yml/badge.svg)](https://github.com/fujiawei-dev/fixed-vhd-writer/actions/workflows/python-test.yml)
 [![Python Publish](https://github.com/fujiawei-dev/fixed-vhd-writer/actions/workflows/python-publish.yml/badge.svg)](https://github.com/fujiawei-dev/fixed-vhd-writer/actions/workflows/python-publish.yml)
 
