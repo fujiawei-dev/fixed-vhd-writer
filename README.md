@@ -1,5 +1,8 @@
 # Fixed VHD Writer
 
+[![Python Test](https://github.com/fujiawei-dev/fixed-vhd-writer/actions/workflows/python-test.yml/badge.svg)](https://github.com/fujiawei-dev/fixed-vhd-writer/actions/workflows/python-test.yml)
+[![Python Publish](https://github.com/fujiawei-dev/fixed-vhd-writer/actions/workflows/python-publish.yml/badge.svg)](https://github.com/fujiawei-dev/fixed-vhd-writer/actions/workflows/python-publish.yml)
+
 ## Installation
 
 ```shell
